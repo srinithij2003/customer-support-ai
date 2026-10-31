@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Local caches and tooling
+.huggingface/
+.cache/
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+
+# Project artifacts
+models/*.joblib
+models/*.pkl
+models/*.bin
+vector_store/*
+reports/*.json
+reports/*.csv
+reports/*.png
+!docs/.gitkeep
+
+# Data
+*.log

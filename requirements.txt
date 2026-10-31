@@ -1,0 +1,12 @@
+pandas>=2.2.2
+numpy>=1.26.4
+scikit-learn>=1.5.2
+datasets>=2.20.0
+joblib>=1.4.0
+streamlit>=1.37.0
+sentence-transformers>=3.0.1
+faiss-cpu>=1.7.4
+pypdf>=4.2.0
+pytest>=8.3.0
+matplotlib>=3.8.4
+python-dotenv>=1.0.1
